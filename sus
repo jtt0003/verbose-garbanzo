@@ -1,0 +1,22 @@
+		Language1 one = new Language1("b");
+		Language1 two = new Language1("d");
+		Language1 three = new Language1("a");
+		Language1 four = new Language1("acad");
+		Language1 five = new Language1("abcd");
+		Language1 six = new Language1("accdcd");
+		Language1 seven = new Language1("acbcda");
+		Language1 eight = new Language1("adcaccd");
+		Language1 nine = new Language1("cccd");
+		Language1 ten = new Language1("aabcdcd");
+		
+
+		System.out.println("b " + one.validate());
+		System.out.println("d " + two.validate());
+		System.out.println("a " + three.validate());
+		System.out.println("acad " + four.validate());
+		System.out.println("abcd " + five.validate());
+		System.out.println("accdcd " + six.validate());
+		System.out.println("acbcda " + seven.validate());
+		System.out.println("adcaccd " + eight.validate());
+		System.out.println("cccd " + nine.validate());
+		System.out.println("aabcdcd " + ten.validate());
